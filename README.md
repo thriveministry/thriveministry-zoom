@@ -32,3 +32,12 @@ This README is to document Zoom App Place requirements.
 | Twilio     | SMS System                                                         |
 | Slack      | API for notifications, some workflows to communicate with our app. |
 | Zoom       | Video conference meeting, scheduling                               |
+
+## Monitoring and CI
+
+| Stack                                      | Description                            |
+| ------------------------------------------ | -------------------------------------- |
+| Skylight                                   | Rails performance monitoring           |
+| Honeybadger                                | Exception, uptime, check-in monitoring |
+| Papertrail                                 | System logs                            |
+| Heroku Pipeline, Heroku CI, Github Actions | Continues integration                  |
