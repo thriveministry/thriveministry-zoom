@@ -18,6 +18,17 @@ This README is to document Zoom App Place requirements.
 
 ## External Services
 
-| Stack      | Description                                                  |
-| ---------- | ------------------------------------------------------------ |
-| Salesforce | API to interact with Salesforce data, mainly for automations |
+| Stack      | Description                                                        |
+| ---------- | ------------------------------------------------------------------ |
+| Salesforce | API to interact with Salesforce data, mainly for automations       |
+| Contentful | API to interact with Contentful data, mainly for blogs             |
+| Stripe     | Payment                                                            |
+| Bitly      | API for creating short links                                       |
+| Circle     | Single Sign On with community platform                             |
+| Canny      | User feedback, changelogs                                          |
+| AWS        | CDN, assets                                                        |
+| Sendgrid   | Transactional Emails                                               |
+| Uploadcare | Image processing, image storage                                    |
+| Twilio     | SMS System                                                         |
+| Slack      | API for notifications, some workflows to communicate with our app. |
+| Zoom       | Video conference meeting, scheduling                               |
